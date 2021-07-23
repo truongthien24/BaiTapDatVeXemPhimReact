@@ -47,12 +47,12 @@ class DanhSachDatVe extends Component {
                     </div>
                 </div>
                 <div style={{width: '100%', height: '477px', overflowY: 'scroll', margin: '10px 0'}}>
-                    <table border="1" width="95%" cellpadding="5px">
-                        <thead>
-                            <tr style={{textAlign: 'center'}}>
-                                <th className="text-white" width="40%">Số ghế</th>
-                                <th className="text-white" width="40%">Giá</th>
-                                <th className="text-white" width="20%">Huỷ</th>
+                    <table border="1" width="95%" cellpadding="5px" style={{position: 'relative'}}>
+                        <thead style={{position: 'sticky', top: '0'}}>
+                            <tr style={{textAlign: 'center', backgroundColor: 'white'}}>
+                                <th className="text-dark" width="40%">Số ghế</th>
+                                <th className="text-dark" width="40%">Giá</th>
+                                <th className="text-dark" width="20%">Huỷ</th>
                             </tr>
                         </thead>
                         <tbody>
